@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+body {
+   overflow-x: hidden;
+   font-family: 'Rubik', sans-serif;
+ }
+ 
+ sup {
+   font-variant: small-caps;
+   position: relative;
+   top: 8px;
+   color: #B5B7B9;
+ }
+ div {
+   width: 360px;
+   max-width: 90%;
+   height: 75px;
+   margin: 0 auto;
+   padding-left: 15px;
+   font-size: 150%;
+   position: relative;
+ }
+p:nth-of-type(1){
+  padding:0 0 20px 0;
+  font-size:50px;
+  color:#FFA67F;
+  user-select: none;
+  cursor:pointer;
+}
+p:nth-of-type(1) span{
+  margin:0 20px;
+  border-bottom:1px solid #FFA67F;
+}
+p:nth-of-type(1) span:active{
+  background-color: #F0E68C;
+  border-radius:10px
+}
+p:nth-of-type(1) span:nth-of-type(1):active{
+  background-color: #A8FF93;
+}
+p:nth-of-type(1) span:nth-of-type(3):active{
+  background-color: #97C0F7;
+}
+.weather span:last-child{
+  padding-left:5px;
+}
+ span {
+   text-transform: uppercase;
+   position: relative;
+   bottom: 3px;
+ }
+ 
+ .time {
+   border-left: 5px solid #A8FF93;
+ }
+ 
+ 
+ .today {
+   border-left: 5px solid #FD9693;
+ }
+ 
+ .weather {
+   border-left: 5px solid #F0E68C;
+ }
+ .location{
+  border-left: 5px solid #97C0F7;
+}
+ .temp {
+   color: firebrick;
+   font-size: 120%;
+   
+
+ }
+
+ .name
+ {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
+
+ p {
+   display: block;
+   width:360px;
+   padding: 40px 0;
+   margin: 0 auto;
+   text-transform: uppercase;
+   font-size: 17px;
+   color: #B57EDC;
+ }
